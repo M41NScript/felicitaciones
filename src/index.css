@@ -92,7 +92,7 @@ table {
 @media screen and (max-width: 640px) {
     .windows{
         width: 90vw;
-        height: 80vh;
+        height: fit-content;
         padding: 15px;
     }
     .message{
