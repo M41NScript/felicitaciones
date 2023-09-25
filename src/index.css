@@ -89,6 +89,17 @@ table {
     align-items: center;
 }
 
+@media screen and (max-width: 640px) {
+    .windows{
+        width: 90vw;
+        height: 80vh;
+        padding: 15px;
+    }
+    .message{
+        font-size: 1rem;
+    }
+}
+
 .windowsContent{
     display: flex;
     flex-direction: column;
