@@ -78,8 +78,8 @@ table {
 }
 
 .windows{
-    width: 60vw;
-    height: 60vh;
+    width: 65vw;
+    height: 70vh;
     border-radius: 15px;
     border: 0.8rem limegreen dotted;
     display: flex;
