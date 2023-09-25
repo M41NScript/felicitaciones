@@ -1,14 +1,7 @@
 import bg from './assets/bg.png'
 import photo from './assets/p.png'
 import flower1 from './assets/flower1.png'
-
-const flowers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-
 function App() {
-
-  const jumpingFlowers = () => {
-
-  }
 
   return (
     <>
