@@ -1,0 +1,321 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.bg{
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    position: absolute;
+    filter: blur(4px);
+}
+
+.Title{
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.content{
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.windows{
+    width: 60vw;
+    height: 60vh;
+    border-radius: 15px;
+    border: 0.8rem limegreen dotted;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.windowsContent{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo{
+    height: 40vh;
+    border-radius: 15px;
+}
+
+.message{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+}
+
+@keyframes f1 {
+    0% {
+        transform: translate(0, 0);
+        transform: rotate(270deg);
+        visibility: visible;
+    }
+    100% {
+        transform: translate(0, 95vh);
+    }
+}
+
+@keyframes f2 {
+    0% {
+        transform: translate(10vw, 0);
+        transform: rotate(270deg);
+        visibility: visible;
+    }
+    100% {
+        transform: translate(0, 95vh);
+    }
+}
+
+@keyframes f3 {
+    0% {
+        transform: translate(20vw, 0);
+        transform: rotate(270deg);
+        visibility: visible;
+    }
+    100% {
+        transform: translate(0, 95vh);
+    }
+}
+
+@keyframes f4 {
+    0% {
+        transform: translate(30vw, 0);
+        transform: rotate(270deg);
+        visibility: visible;
+    }
+    100% {
+        transform: translate(0, 95vh);
+    }
+}
+
+@keyframes f5 {
+    0% {
+        transform: translate(40vw, 0);
+        transform: rotate(270deg);
+        visibility: visible;
+    }
+    100% {
+        transform: translate(0, 95vh);
+    }
+}
+
+@keyframes f6 {
+    0% {
+        transform: translate(50vw, 0);
+        transform: rotate(270deg);
+        visibility: visible;
+    }
+    100% {
+        transform: translate(0, 95vh);
+    }
+}
+
+@keyframes f7 {
+    0% {
+        transform: translate(60vw, 0);
+        transform: rotate(270deg);
+        visibility: visible;
+    }
+    100% {
+        transform: translate(0, 95vh);
+    }
+}
+
+@keyframes f8 {
+    0% {
+        transform: translate(70vw, 0);
+        transform: rotate(270deg);
+        visibility: visible;
+    }
+    100% {
+        transform: translate(0, 95vh);
+    }
+}
+
+@keyframes f9 {
+    0% {
+        transform: translate(80vw, 0);
+        transform: rotate(270deg);
+        visibility: visible;
+    }
+    100% {
+        transform: translate(0, 95vh);
+    }
+}
+
+@keyframes f10 {
+    0% {
+        transform: translate(90vw, 0);
+        transform: rotate(270deg);
+        visibility: visible;
+    }
+    100% {
+        transform: translate(0, 95vh);
+    }
+}
+
+.flower{
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    width: 5%;
+    height: 5%;
+    animation: f1 15s infinite ;
+}
+
+.flower2{
+    position: absolute;
+    left: 10vw;
+    z-index: 2;
+    width: 5%;
+    height: 5%;
+    animation: f2 15s infinite ;
+}
+
+.flower3{
+    position: absolute;
+    left: 20vw;
+    z-index: 2;
+    width: 5%;
+    height: 5%;
+    animation: f3 15s infinite ;
+}
+
+.flower4{
+    position: absolute;
+    left: 30vw;
+    z-index: 2;
+    width: 5%;
+    height: 5%;
+    animation: f4 15s infinite ;
+}
+
+.flower5{
+    position: absolute;
+    left: 40vw;
+    z-index: 2;
+    width: 5%;
+    height: 5%;
+    animation: f5 15s infinite ;
+}
+
+.flower6{
+    position: absolute;
+    left: 50vw;
+    z-index: 2;
+    width: 5%;
+    height: 5%;
+    animation: f6 15s infinite ;
+}
+
+.flower7{
+    position: absolute;
+    left: 60vw;
+    z-index: 2;
+    width: 5%;
+    height: 5%;
+    animation: f7 15s infinite ;
+}
+
+.flower8{
+    position: absolute;
+    left: 70vw;
+    z-index: 2;
+    width: 5%;
+    height: 5%;
+    animation: f8 15s infinite ;
+}
+
+.flower9{
+    position: absolute;
+    left: 80vw;
+    z-index: 2;
+    width: 5%;
+    height: 5%;
+    animation: f9 15s infinite ;
+}
+
+.flower10{
+    position: absolute;
+    left: 90vw;
+    z-index: 2;
+    width: 5%;
+    height: 5%;
+    animation: f10 15s infinite ;
+}
+
+.delay1{
+    visibility: hidden;
+    animation-delay: 5s;
+}
+
+.delay2{
+    visibility: hidden;
+    animation-delay: 10s;
+}
